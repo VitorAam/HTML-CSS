@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(141, 250, 150);
+}
+h1 {
+    color: red;
+}
+h1#principal {background-color: white;}
+h2 {
+    color: rgb(247, 55, 55);
+}
+.padrao1 {
+    color: black;
+    font-weight: bolder;
+}

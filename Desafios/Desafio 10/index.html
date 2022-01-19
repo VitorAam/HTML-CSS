@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Box</title>
+    <style>
+        :root {
+            --cor0: #e6a6b2;
+            --cor1: #da667b;
+            --cor2: #744fc6;
+            --cor3: #affc41;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: #e6a6b2 ;
+            background-attachment: fixed;
+
+        }
+
+        header {
+            background-image: linear-gradient(to bottom, #da667b, #744fc6);
+            text-align:center;
+            min-height: 150px;
+            padding-top: 40px;
+        }
+
+        header > h1 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color:white;
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.349);
+            font-weight: normal;
+        }
+
+        header p {
+            font-size: 1.2em;
+            color: white;
+            max-width: 500px;
+            padding-right: 10px;
+            padding-left: 10px;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+
+        header > nav {
+            text-align:left;
+        }
+
+        nav {
+            margin: 20px 0px 15px -8px;
+            padding: 10px;
+            box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.274);
+        }
+        nav > a {
+            text-decoration: none;
+            color: #affc41;
+            transition-duration: 0.5s;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+        nav > a:hover {
+            background-color: #5521c5;
+            color: var(--cor1);
+        }
+
+        main {
+            min-width: 300px;
+            max-width: 1000px;
+            margin: auto;
+            margin-bottom: 30px;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.274);
+            border-radius: 10px;
+            background-color: white;
+        
+        }
+        main p {
+
+            margin: 15px 0px 15px 0px;
+            text-align: justify;
+            text-indent: 30px;
+            font-size: 1em;
+            line-height: 2em;
+        }
+
+        main img {
+            width: 100%;
+            max-width: 800px;
+        }
+        h1 {
+            margin: 0px 0px 16px 16px;
+            padding: 20px 0px 0px 0px;
+            color: #744fc6;
+            font-size: 1.5em;
+        }
+        h2 {
+            color:#744fc6;
+            margin: 0px 0px 16px 16px;
+        }
+        p {
+            margin: 16px 16px 16px 16px;
+            text-indent: 10px;
+        }
+        div {
+            text-align: center;
+            background-color: rgb(190, 146, 231);
+        }
+
+        div.video {
+            background-color: var(--cor0);
+            margin: 0px -10px 30px -10px;
+            padding: 20px;
+            padding-bottom: 59%;
+            position: relative;
+        }
+
+        div.video > iframe {
+            position: absolute;
+            left: 5%;
+            top: 5%;
+            width: 90%;
+            height: 90%;
+        }
+        aside {
+            background-color: #da667b;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+        }
+        aside > h3 {
+            background-color: #754fc6ab;
+            color: white;
+            padding: 10px;
+            margin: -10px -10px 0px -10px;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        ul {
+            list-style-position: inside;
+            columns: 2;
+        }
+
+        ul > a {
+            text-decoration: none;
+            color: black;
+        }
+        ul > a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #744fc6;
+            text-align: center;
+            color: white;
+            margin-top: 30px;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: var(--cor3);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SweetHome</h1>
+        <p>A fábrica nº1 de doces no Brasil.<br>
+            Quem adoça a vida, vive ela bem mais leve.</p>
+        <nav>
+          <a href="#">Página Principal</a>
+          <a href="#">Loja</a>
+          <a href="#">Notícias</a>
+          <a href="#">Fale Conosco</a>  
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article id="história">
+                <h1>HISTÓRIA DA SWEETHOME</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita eum illo omnis, tenetur consectetur modi quod iure debitis consequuntur cumque molestias sunt itaque vero at hic rem voluptas. Ex, qui.
+                    <h2>O começo em casa</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae ab perferendis necessitatibus veniam ullam sapiente? Quasi, molestias debitis. Deleniti veritatis maiores, error in quasi blanditiis id minima dicta magni doloribus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere repellendus odio consectetur harum commodi? Illo enim, officiis explicabo harum assumenda dignissimos, repellat quod aperiam perspiciatis fugiat, deserunt reiciendis vel et? <br>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, quis est a illo nesciunt error commodi quasi natus eum iusto rem vel earum ratione obcaecati doloremque aut molestiae tempore ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo unde commodi, expedita culpa, nam quasi dignissimos consectetur, animi aliquid vitae cum! Aperiam maiores tenetur nobis a quam voluptatibus, tempora exercitationem.
+                    </p>
+                    <img src="" alt="">
+                    <h2>A criação da primeira fábrica</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod voluptas, doloribus voluptate autem nulla id modi quas perferendis velit, molestiae omnis quia voluptatibus. Magni ea in laborum praesentium tempora voluptatum!</p>
+                    <img src="" alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas, necessitatibus! Ratione atque placeat tenetur odio id harum a, rerum cumque voluptatum aliquid saepe illo fugit sunt quaerat repellendus magnam eveniet.</p>
+                    <div><img src="imagens/pexels-nataliya-vaitkevich-8468311 (1).jpg" alt="Doce no Palito"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A vitae provident ipsa amet quia ex nesciunt voluptatum voluptas ut fugiat mollitia inventore libero aperiam accusamus dolores, illum ipsum, aut dolor. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, debitis. Debitis veritatis, quidem saepe illo eaque nam consequatur vitae. Debitis sapiente dolorem, optio in incidunt deleniti reprehenderit iusto repellat labore. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, perferendis tempore! Amet, dicta. Expedita adipisci ducimus hic deserunt modi recusandae nihil quod! Exercitationem numquam cumque asperiores, perferendis sapiente optio eum.</p><div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/595lOhWyjxs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                </p>
+                <aside>
+                    <h3>Quer saber mais sobre a criação de cada doce?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quam veritatis autem error perspiciatis eveniet, facere adipisci! Rerum at facilis a aliquam dolor nam maiores quaerat, delectus, mollitia magnam aliquid?</p>
+                    <ul>
+                        <a href="#">
+                            <li>Doce 1</li>
+                        </a>
+                        <a href="#">
+                            <li>Doce 2</li>
+                        </a>
+                        <a href="#">
+                            <li>Doce 3</li>
+                        </a>
+                        <a href="#">
+                            <li>Doce 4</li>
+                        </a>
+                        <a href="#">
+                            <li>Doce 5</li>
+                        </a>
+                        <a href="#">
+                            <li>Doce 6</li>
+                        </a>
+                        <a href="#">
+                            <li>Doce 7</li>
+                        </a>
+                        <a href="#">
+                            <li>Doce 8</li>
+                        </a>
+                        <a href="#"><li>Doce 9</li></a>
+                        <a href="#"><li>Doce 10</li></a>
+                        <a href="#"><li>Doce 11</li></a>
+                        <a href="#"><li>Doce 12</li></a>
+                        <a href="#"><li>Doce 13</li></a>
+                        <a href="#"><li>Doce 14</li></a>
+                        <a href="#"><li>Doce 15</li></a>
+                        <a href="#"><li>Doce 16</li></a>
+                    </ul>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque neque distinctio asperiores accusamus quam! Eligendi asperiores, doloremque assumenda sapiente impedit, pariatur enim, eum nulla eius illum facilis. Iure, ipsa quis?</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Desafio realizado por <a href="#">Vitor Augusto</a>, com o auxilío do <a href="#" class="externo">Curso em Vídeo</a>.
+    </footer>
+</body>
+</html>

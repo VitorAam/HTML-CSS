@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Bora testar pra ver se isso aqui funciona direitinho, vou tentar entrar por meio de outros dispositivos ou aumentarei e diminueirei o tamanho do meu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 714px)" srcset="imagens/pequeno.png" type="image/png">
+        <source media="(max-width: 1024px)" srcset="imagens/medio.png" type="image/png">
+        <img src="imagens/grande.png" alt="Imagem flexível">
+    </picture>
+    <h1>Testando o aúdio do site</h1>
+    <p>Realizar o teste de áudio aqui</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>

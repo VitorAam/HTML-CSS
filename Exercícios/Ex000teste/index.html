@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testando minhas habilidades</title>
-    <h1>Mainha é lindona demais, ihuuuu</h1>
-    <hr>
-
+    <title>Testando imagens dinâmicas</title>
 </head>
 <body>
-    <p>Eu gostaria de dizer que tô mandando bem demais nesse curso, logo mais serei um grande desenvolvedor de sites e vou ganhar bastante dinheiro no mundo à fora</p>
-    <p>O natal de 2021 &#x1f384; vai ser maravilhoso, com toda família reunida, comidas deliciosas, companias agradavéis e regado à bastante música&#x1f3b8;</p>
+    <h1>Testando</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pequeno.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/medio.png" type="image/png">
+        <img src="imagens/grande.png" alt="Teste">
+    </picture>
 </body>
 </html>
